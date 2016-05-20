@@ -1,0 +1,132 @@
+{
+  "templatename": "Starting Page",
+  "features": [
+    {
+      "xPos": 21,
+      "yPos": 200,
+      "width": 18.0,
+      "height": 10.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+        "properties": {
+          "action": {
+            "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+            "properties": {}
+          },
+          "size": 1.0,
+          "leftClick": true,
+          "rightClick": true,
+          "otherClick": false,
+          "tooltip": "",
+          "hoverText": "",
+          "hoverXOffset": 0,
+          "hoverYOffset": 0,
+          "unhoveredText": "",
+          "unhoveredXOffset": 0,
+          "unhoveredYOffset": 0,
+          "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+          "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 0
+    },
+    {
+      "xPos": 387,
+      "yPos": 200,
+      "width": 18.0,
+      "height": 10.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+        "properties": {
+          "action": {
+            "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+            "properties": {}
+          },
+          "size": 1.0,
+          "leftClick": true,
+          "rightClick": true,
+          "otherClick": false,
+          "tooltip": "",
+          "hoverText": "",
+          "hoverXOffset": 0,
+          "hoverYOffset": 0,
+          "unhoveredText": "",
+          "unhoveredXOffset": 0,
+          "unhoveredYOffset": 0,
+          "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+          "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 1
+    },
+    {
+      "xPos": 30,
+      "yPos": 116,
+      "width": 71.0,
+      "height": 71.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "item": "terraincrystals:terrainCrystalNether 0",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 2
+    },
+    {
+      "xPos": 25,
+      "yPos": 14,
+      "width": 169.0,
+      "height": 165.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "Welcome to New Beginning! This book will guide you through a few key gameplay elements as well as provide information crucial to the prevention of your death. This pack is built around the Garden of Glass and Terrain Crystals, enjoy!",
+          "size": 1.0
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 3
+    },
+    {
+      "xPos": 139,
+      "yPos": 116,
+      "width": 64.0,
+      "height": 64.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "item": "botania:shinyFlower 0",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 4
+    },
+    {
+      "xPos": 233,
+      "yPos": 25,
+      "width": 178.0,
+      "height": 107.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "This guide book is not meant to act as a replacement for the Lexica Botania or any other available mod guide books. You are also not required to follow the progression listed henceforth. It is recommended you read the Garden of Glass section of the Lexica Botania before starting. \n\nBelow you can find the following links to the forums and issue tracker:",
+          "size": 1.0
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 5
+    }
+  ],
+  "uniquename": "Starting_Page_1463457665957"
+}

@@ -1,0 +1,134 @@
+{
+  "templatename": "Terrain Crystals",
+  "features": [
+    {
+      "xPos": 21,
+      "yPos": 200,
+      "width": 18.0,
+      "height": 10.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+        "properties": {
+          "action": {
+            "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+            "properties": {}
+          },
+          "size": 1.0,
+          "leftClick": true,
+          "rightClick": true,
+          "otherClick": false,
+          "tooltip": "",
+          "hoverText": "",
+          "hoverXOffset": 0,
+          "hoverYOffset": 0,
+          "unhoveredText": "",
+          "unhoveredXOffset": 0,
+          "unhoveredYOffset": 0,
+          "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+          "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 0
+    },
+    {
+      "xPos": 387,
+      "yPos": 200,
+      "width": 18.0,
+      "height": 10.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+        "properties": {
+          "action": {
+            "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+            "properties": {}
+          },
+          "size": 1.0,
+          "leftClick": true,
+          "rightClick": true,
+          "otherClick": false,
+          "tooltip": "",
+          "hoverText": "",
+          "hoverXOffset": 0,
+          "hoverYOffset": 0,
+          "unhoveredText": "",
+          "unhoveredXOffset": 0,
+          "unhoveredYOffset": 0,
+          "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+          "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 1
+    },
+    {
+      "xPos": 41,
+      "yPos": 14,
+      "width": 179.0,
+      "height": 17.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "     Terrain Crystals",
+          "size": 1.0
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 2
+    },
+    {
+      "xPos": 21,
+      "yPos": 36,
+      "width": 182.0,
+      "height": 160.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "Terrain Crystals is a mod that allows you to create sky islands out of desired biomes. Each crystal has a set durability that decays based on the amount of blocks it has created. It is important to note that continually using the crystal on already created land will results in the land mass \"growing\" downwards and expanding.\n\nUsing a Terrain Crystal will not only spawn land mass, but also convert biomes into it\u0027s own biome type. For example, a plains crystal will convert the new land created by the crystal into a plains biome.",
+          "size": 1.0
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 3
+    },
+    {
+      "xPos": 228,
+      "yPos": 35,
+      "width": 185.0,
+      "height": 83.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "The terrain and decoration of each crystal will vary by biome type. It is also important to note that each biome\u0027s respective properties do accompany the biome change. This means that the end crystal will spawn land that does not spawn mobs other than enderman and the nether crystal will only spawn nether mobs. \n\nNote: You must relog in order for the biome ID and foliage color changes to occur client-side.",
+          "size": 1.0
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 4
+    },
+    {
+      "xPos": 283,
+      "yPos": 154,
+      "width": 100.0,
+      "height": 100.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+        "properties": {
+          "ingredients": "minecraft:dirt:0:minecraft:dirt:0:minecraft:dirt:0:minecraft:dirt:0:minecraft:gold_block:0:minecraft:dirt:0:minecraft:dirt:0:minecraft:dirt:0:minecraft:dirt:0",
+          "recipeType": "ShapedRecipes",
+          "item": "terraincrystals:terrainCrystalPlains 0",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 5
+    }
+  ],
+  "uniquename": "Terrain_Crystals_1463457676961"
+}
