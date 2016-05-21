@@ -177,8 +177,8 @@
           "layerIndex": 5
         },
         {
-          "xPos": 234,
-          "yPos": 19,
+          "xPos": 231,
+          "yPos": 22,
           "width": 178.0,
           "height": 107.0,
           "feature": {
@@ -188,7 +188,7 @@
               "size": 1.0
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 6
         },
@@ -225,8 +225,8 @@
           "layerIndex": 8
         },
         {
-          "xPos": 273,
-          "yPos": 123,
+          "xPos": 246,
+          "yPos": 114,
           "width": 18.0,
           "height": 17.0,
           "feature": {
@@ -258,8 +258,8 @@
           "layerIndex": 9
         },
         {
-          "xPos": 335,
-          "yPos": 121,
+          "xPos": 277,
+          "yPos": 124,
           "width": 18.0,
           "height": 18.0,
           "feature": {
@@ -286,9 +286,42 @@
               "unhoveredResource": "enchiridion:images/New_Beginnings/download.png"
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 10
+        },
+        {
+          "xPos": 303,
+          "yPos": 111,
+          "width": 19.0,
+          "height": 17.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+                "properties": {
+                  "url": "https://discord.gg/0vSNCdaPIWpFvKYk"
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "Join our Discord Community!",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:images/New_Beginnings/download.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 11
         }
       ],
       "pageNumber": 0,
@@ -834,7 +867,7 @@
           "xPos": 38,
           "yPos": 116,
           "width": 160.0,
-          "height": 80.0,
+          "height": 160.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1759,6 +1792,39 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 6
+        },
+        {
+          "xPos": 282,
+          "yPos": 177,
+          "width": 21.0,
+          "height": 18.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+                "properties": {
+                  "url": "http://ftbwiki.org/Blood_Altar"
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "FTB Wiki",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:images/New_Beginnings/download.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
         }
       ],
       "pageNumber": 8,
@@ -1845,14 +1911,14 @@
           "layerIndex": 2
         },
         {
-          "xPos": 42,
-          "yPos": 27,
+          "xPos": 37,
+          "yPos": 21,
           "width": 161.0,
           "height": 167.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Blank Rune - A simple rune.\nSacrifice - Increases LP gained when sacrificing mobs.\nSelf-Sacrificse - Increases LP gained from self damaging.",
+              "text": "Blank Rune - A simple rune.\nSacrifice - Increases LP gained when sacrificing mobs.\nSelf-Sacrifice - Increases LP gained from self damaging.\nDisplacement - Increases the amount of LP that can be removed from the altar at once.\nCapacity - Increases the capacity by 2000 LP\nAugmented Capacity - Increases capacity by 10%\nOrb - Increases the network capacity of the current orb inside the altar by 2%\nAcceleration - Increases how often LP can be removed.",
               "size": 1.0
             }
           },
@@ -1862,7 +1928,7 @@
         },
         {
           "xPos": 17,
-          "yPos": 25,
+          "yPos": 14,
           "width": 16.0,
           "height": 16.0,
           "feature": {
@@ -1877,8 +1943,8 @@
           "layerIndex": 4
         },
         {
-          "xPos": 16,
-          "yPos": 44,
+          "xPos": 18,
+          "yPos": 32,
           "width": 16.0,
           "height": 16.0,
           "feature": {
@@ -1893,8 +1959,8 @@
           "layerIndex": 5
         },
         {
-          "xPos": 15,
-          "yPos": 64,
+          "xPos": 16,
+          "yPos": 53,
           "width": 16.0,
           "height": 16.0,
           "feature": {
@@ -1910,7 +1976,7 @@
         },
         {
           "xPos": 16,
-          "yPos": 85,
+          "yPos": 71,
           "width": 16.0,
           "height": 16.0,
           "feature": {
@@ -1926,7 +1992,7 @@
         },
         {
           "xPos": 15,
-          "yPos": 105,
+          "yPos": 92,
           "width": 16.0,
           "height": 16.0,
           "feature": {
@@ -1941,8 +2007,8 @@
           "layerIndex": 8
         },
         {
-          "xPos": 13,
-          "yPos": 125,
+          "xPos": 16,
+          "yPos": 111,
           "width": 16.0,
           "height": 16.0,
           "feature": {
@@ -1958,7 +2024,7 @@
         },
         {
           "xPos": 15,
-          "yPos": 152,
+          "yPos": 132,
           "width": 16.0,
           "height": 16.0,
           "feature": {
@@ -1974,19 +2040,87 @@
         },
         {
           "xPos": 262,
-          "yPos": 26,
-          "width": 132.0,
-          "height": 18.0,
+          "yPos": 11,
+          "width": 101.0,
+          "height": 15.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "\u003cReserved\u003e Under construction. Please hold!",
+              "text": "Life Essence Armors",
               "size": 1.0
             }
           },
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 11
+        },
+        {
+          "xPos": 241,
+          "yPos": 28,
+          "width": 163.0,
+          "height": 52.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Blood Letter\u0027s Pack - When worn, the armor will slowly damage the player to half health. In return, the armor is filled with life essence. The essence can then be dumped into the altar by placing it inside.\n\nCoat of Arms - Fills with life essence when you slay mobs. Stacks with the sentiet sword and will collection.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
+        },
+        {
+          "xPos": 234,
+          "yPos": 144,
+          "width": 84.0,
+          "height": 42.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "blockGlass:minecraft:bucket:0:blockGlass:minecraft:flint:0:minecraft:leather_chestplate:0:minecraft:flint:0:blockGlass:bloodmagic:ItemSlate:0:blockGlass",
+              "recipeType": "ShapedOreRecipe",
+              "item": "bloodmagic:ItemPackSelfSacrifice 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 13
+        },
+        {
+          "xPos": 323,
+          "yPos": 145,
+          "width": 85.0,
+          "height": 42.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "blockGlass:minecraft:bucket:0:blockGlass:ingotIron:minecraft:leather_chestplate:0:ingotIron:blockGlass:bloodmagic:ItemSlate:0:blockGlass",
+              "recipeType": "ShapedOreRecipe",
+              "item": "bloodmagic:ItemPackSacrifice 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 14
+        },
+        {
+          "xPos": 16,
+          "yPos": 156,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:BlockBloodRune 9",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 15
         }
       ],
       "pageNumber": 9,
@@ -2071,6 +2205,22 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 2
+        },
+        {
+          "xPos": 20,
+          "yPos": 32,
+          "width": 174.0,
+          "height": 80.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
         }
       ],
       "pageNumber": 14,
@@ -2242,6 +2392,768 @@
         }
       ],
       "pageNumber": 22,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 80,
+          "yPos": 14,
+          "width": 62.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Living Armor",
+              "size": 1.0
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 22,
+          "yPos": 28,
+          "width": 179.0,
+          "height": 60.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Living armor is a unique set of armor that upgrades as you perform various tasks around the world. In order to obtain the benefits and upgrades, the full set of armor must be worn.",
+              "size": 1.0
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 36,
+          "yPos": 84,
+          "width": 21.0,
+          "height": 21.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemLivingArmourHelmet 0 {}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 78,
+          "yPos": 85,
+          "width": 19.0,
+          "height": 19.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemLivingArmourChest 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 122,
+          "yPos": 85,
+          "width": 18.0,
+          "height": 18.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemLivingArmourLegs 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 163,
+          "yPos": 85,
+          "width": 18.0,
+          "height": 18.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemLivingArmourBoots 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 26,
+          "yPos": 109,
+          "width": 171.0,
+          "height": 82.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "The upgrades from living armor can be removed using the Ritual: Sound of the Cleansing Soul. Standing on the ritual stone will cause the armor to drop upgrade fragments that can be reused or upgraded similar to enchanted books.",
+              "size": 1.0
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 94,
+          "yPos": 174,
+          "width": 21.0,
+          "height": 21.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemUpgradeTome 0 {level:1,key:\"BloodMagic.upgrade.criticalStrike\"}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 281,
+          "yPos": 14,
+          "width": 79.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Sentient Armor",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 237,
+          "yPos": 30,
+          "width": 164.0,
+          "height": 133.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Sentient Armor is a direct upgrade from Living Armor. In order to acquire sentient armor, you must use a [b]Sentient Armor Gem[/b] while wearing a set of Living Armor. Sentient Armor does not allow you to use the upgrade that have accumulated on Living Armor, however Sentient Armor provides higher protection and is able to provide different effects based on the varying types of will in your inventory.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 11
+        },
+        {
+          "xPos": 245,
+          "yPos": 159,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemSentientArmourGem",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
+        },
+        {
+          "xPos": 280,
+          "yPos": 178,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemSentientArmourHelmet 0 {}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 13
+        },
+        {
+          "xPos": 303,
+          "yPos": 166,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemSentientArmourChest 0 {}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 14
+        },
+        {
+          "xPos": 336,
+          "yPos": 174,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemSentientArmourLegs 0 {}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 15
+        },
+        {
+          "xPos": 368,
+          "yPos": 160,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemSentientArmourBoots 0 {}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 16
+        }
+      ],
+      "pageNumber": 10,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 241,
+          "yPos": 23,
+          "width": 169.0,
+          "height": 165.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Once all of the ritual stones for the selected ritual have been placed, tap the master ritual stone with an [b]activation crystal[/b] of some kind. Life essence will be drained and the ritual will begin.\n\nOne extremely useful end-game tool is the [b]Ritual Tinkerer[/b]. The ritual tinkerer displays information on various rituals as well as allowing you to define *where* a ritual will take place. Useful for complex setups.",
+              "size": 1.0
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 74,
+          "yPos": 10,
+          "width": 67.0,
+          "height": 14.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Ritual System",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 29,
+          "yPos": 20,
+          "width": 170.0,
+          "height": 173.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Blood in your network may be used in multiblock structures and systems known as rituals.\n\nTo begin with rituals you will need a [b]Master Ritual Stone[/b] and a [b]Ritual Diviner[/b]. Note, some rituals may require additional runes that your diviner does not support. Diviners that support Dusk and Dawn runes are available at later tiers of altars.\n\nTo begin a ritual, place your master ritual stone on the ground and select the ritual with your ritual diviner. Right clicking the master ritual stone will place [b]Ritual Stones[/b] from your inventory around you.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 283,
+          "yPos": 169,
+          "width": 19.0,
+          "height": 19.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemActivationCrystal 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 315,
+          "yPos": 168,
+          "width": 19.0,
+          "height": 19.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemRitualDiviner 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 348,
+          "yPos": 170,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemRitualReader",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 9
+        }
+      ],
+      "pageNumber": 11,
+      "isScrollable": false
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 60,
+          "yPos": 16,
+          "width": 106.0,
+          "height": 15.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Additional Will Types",
+              "size": 1.0
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 23,
+          "yPos": 35,
+          "width": 178.0,
+          "height": 78.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "The first block you will need is the [b]Demon Crucible[/b]. Place any will-containing gem into the crucible to begin. The crucible will drain the gem of any will and store it in the [b]chunk that contains the crucible[/b].\n\nNext, place any amount of [b]Demon Crystallizers[/b] in the same chunk that contains the crucible. The Crystallizers will drain the will from the chunk and eventually form crystals of varying will types. Once a crystal has appeared on top of the crystallizer, simply break it with any pickaxe. ",
+              "size": 1.0
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 121,
+          "yPos": 177,
+          "width": 21.0,
+          "height": 21.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemDemonCrystal 0",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 83,
+          "yPos": 92,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:BlockDemonCrucible",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 115,
+          "yPos": 90,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:BlockDemonCrystallizer",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 232,
+          "yPos": 33,
+          "width": 171.0,
+          "height": 162.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "You may leave any crystal on the crystallizer and eventually it will grow additional spires that can be harvest via right-clicking without needing to break the crystal. This is useful for farming special crystals that would otherwise be rare.\n\nAdditionally, you may accelerate the growth of nearby crystallizers using the Ritual: Gathering of Forsaken Souls. The ritual will damage nearby mobs and cause any crystallizers to rapidly grow. This ritual requires a ritual diviner - dusk.",
+              "size": 1.0
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 266,
+          "yPos": 17,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemDemonCrystal 1",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 8
+        },
+        {
+          "xPos": 297,
+          "yPos": 3,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemDemonCrystal 2",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 9
+        },
+        {
+          "xPos": 333,
+          "yPos": 16,
+          "width": 17.0,
+          "height": 17.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemDemonCrystal 3",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 10
+        },
+        {
+          "xPos": 370,
+          "yPos": 3,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemDemonCrystal 4",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 11
+        }
+      ],
+      "pageNumber": 12,
       "isScrollable": false
     }
   ],

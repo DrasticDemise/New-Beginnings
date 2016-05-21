@@ -1,0 +1,228 @@
+{
+  "templatename": "Ritual System",
+  "features": [
+    {
+      "xPos": 21,
+      "yPos": 200,
+      "width": 18.0,
+      "height": 10.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+        "properties": {
+          "action": {
+            "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+            "properties": {}
+          },
+          "size": 1.0,
+          "leftClick": true,
+          "rightClick": true,
+          "otherClick": false,
+          "tooltip": "",
+          "hoverText": "",
+          "hoverXOffset": 0,
+          "hoverYOffset": 0,
+          "unhoveredText": "",
+          "unhoveredXOffset": 0,
+          "unhoveredYOffset": 0,
+          "hoveredResource": "enchiridion:textures/books/arrow_left_on.png",
+          "unhoveredResource": "enchiridion:textures/books/arrow_left_off.png"
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 0
+    },
+    {
+      "xPos": 387,
+      "yPos": 200,
+      "width": 18.0,
+      "height": 10.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+        "properties": {
+          "action": {
+            "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+            "properties": {}
+          },
+          "size": 1.0,
+          "leftClick": true,
+          "rightClick": true,
+          "otherClick": false,
+          "tooltip": "",
+          "hoverText": "",
+          "hoverXOffset": 0,
+          "hoverYOffset": 0,
+          "unhoveredText": "",
+          "unhoveredXOffset": 0,
+          "unhoveredYOffset": 0,
+          "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+          "unhoveredResource": "enchiridion:textures/books/arrow_right_off.png"
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 1
+    },
+    {
+      "xPos": 80,
+      "yPos": 14,
+      "width": 62.0,
+      "height": 16.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "Living Armor",
+          "size": 1.0
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 2
+    },
+    {
+      "xPos": 22,
+      "yPos": 28,
+      "width": 179.0,
+      "height": 60.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "Living armor is a unique set of armor that upgrades as you perform various tasks around the world. In order to obtain the benefits and upgrades, the full set of armor must be worn.",
+          "size": 1.0
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 3
+    },
+    {
+      "xPos": 36,
+      "yPos": 84,
+      "width": 21.0,
+      "height": 21.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "item": "bloodmagic:ItemLivingArmourHelmet 0 {}",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 4
+    },
+    {
+      "xPos": 78,
+      "yPos": 85,
+      "width": 19.0,
+      "height": 19.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "item": "bloodmagic:ItemLivingArmourChest 0 {}",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 5
+    },
+    {
+      "xPos": 122,
+      "yPos": 85,
+      "width": 18.0,
+      "height": 18.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "item": "bloodmagic:ItemLivingArmourLegs 0 {}",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 6
+    },
+    {
+      "xPos": 163,
+      "yPos": 85,
+      "width": 18.0,
+      "height": 18.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "item": "bloodmagic:ItemLivingArmourBoots 0 {}",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 7
+    },
+    {
+      "xPos": 26,
+      "yPos": 109,
+      "width": 171.0,
+      "height": 82.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "The upgrades from living armor can be removed using the Ritual: Sound of the Cleansing Soul. Standing on the ritual stone will cause the armor to drop upgrade fragments that can be reused or upgraded similar to enchanted books.",
+          "size": 1.0
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 8
+    },
+    {
+      "xPos": 94,
+      "yPos": 174,
+      "width": 21.0,
+      "height": 21.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+        "properties": {
+          "item": "bloodmagic:ItemUpgradeTome 0 {level:1,key:\"BloodMagic.upgrade.criticalStrike\"}",
+          "hideTooltip": false
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 9
+    },
+    {
+      "xPos": 293,
+      "yPos": 13,
+      "width": 67.0,
+      "height": 14.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "Ritual System",
+          "size": 1.0
+        }
+      },
+      "isLocked": true,
+      "isHidden": false,
+      "layerIndex": 10
+    },
+    {
+      "xPos": 232,
+      "yPos": 26,
+      "width": 178.0,
+      "height": 161.0,
+      "feature": {
+        "class": "joshie.enchiridion.gui.book.features.FeatureText",
+        "properties": {
+          "text": "Blood in your network may be used in multiblock structures and systems known as rituals.\n\nTo begin with rituals you will need a [b]Master Ritual Stone[/b] and a [b]Ritual Diviner[/b]. Note, some rituals may require additional runes that your diviner does not support. Diviners that support Dusk and Dawn runes are available at later tiers of altars.\n\nTo begin a ritual, place your master ritual stone on the ground and select the ritual with your ritual diviner. Right clicking the master ritual stone will place [b]Ritual Stones[/b] from your inventory around you.",
+          "size": 1.0
+        }
+      },
+      "isLocked": false,
+      "isHidden": false,
+      "layerIndex": 11
+    }
+  ],
+  "uniquename": "Ritual_System_1463857931657"
+}
