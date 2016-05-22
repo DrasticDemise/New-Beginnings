@@ -177,14 +177,14 @@
           "layerIndex": 5
         },
         {
-          "xPos": 231,
+          "xPos": 232,
           "yPos": 22,
-          "width": 178.0,
-          "height": 107.0,
+          "width": 180.0,
+          "height": 174.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "It is recommended you read the Garden of Glass section of the Lexica Botania before starting. Should you happen to lose this book, simply place a pebble in the crafting grid. \n\nBelow you can find the following links to the forums and issue tracker:\n\n\n\n\nIf you would like your Let\u0027s Play displayed here, PM me on the forums!\n\nYou may contribute to the development of this pack via the git link.",
+              "text": "It is recommended you read the Garden of Glass section of the Lexica Botania before starting. Should you happen to lose this book, simply place a pebble in the crafting grid. \n\nBelow you can find the following links to the forums and issue tracker:\n\n\n\n\nIf you would like your Let\u0027s Play displayed here, PM me on the forums!\nWelsknight:",
               "size": 1.0
             }
           },
@@ -322,6 +322,39 @@
           "isLocked": true,
           "isHidden": false,
           "layerIndex": 11
+        },
+        {
+          "xPos": 287,
+          "yPos": 168,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+                "properties": {
+                  "url": "https://www.youtube.com/watch?v\u003d5yBE3Y-OU38"
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": true,
+              "tooltip": "Welsknight Let\u0027s Play!",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:images/New_Beginnings/download.png"
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 12
         }
       ],
       "pageNumber": 0,
@@ -1001,7 +1034,7 @@
           "xPos": 26,
           "yPos": 105,
           "width": 84.0,
-          "height": 42.0,
+          "height": 84.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1035,7 +1068,7 @@
           "xPos": 235,
           "yPos": 141,
           "width": 78.0,
-          "height": 39.0,
+          "height": 78.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1053,7 +1086,7 @@
           "xPos": 320,
           "yPos": 138,
           "width": 83.0,
-          "height": 41.5,
+          "height": 83.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1071,7 +1104,7 @@
           "xPos": 119,
           "yPos": 105,
           "width": 82.0,
-          "height": 41.0,
+          "height": 82.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1089,7 +1122,7 @@
           "xPos": 83,
           "yPos": 148,
           "width": 102.0,
-          "height": 51.0,
+          "height": 102.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1285,7 +1318,7 @@
           "xPos": 283,
           "yPos": 154,
           "width": 100.0,
-          "height": 50.0,
+          "height": 100.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1419,7 +1452,7 @@
           "xPos": 94,
           "yPos": 157,
           "width": 86.0,
-          "height": 43.0,
+          "height": 86.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -2074,7 +2107,7 @@
           "xPos": 234,
           "yPos": 144,
           "width": 84.0,
-          "height": 42.0,
+          "height": 84.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -2092,7 +2125,7 @@
           "xPos": 323,
           "yPos": 145,
           "width": 85.0,
-          "height": 42.5,
+          "height": 85.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -2202,25 +2235,41 @@
               "size": 1.0
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
           "layerIndex": 2
         },
         {
-          "xPos": 20,
-          "yPos": 32,
-          "width": 174.0,
-          "height": 80.0,
+          "xPos": 21,
+          "yPos": 62,
+          "width": 184.0,
+          "height": 66.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "",
+              "text": "The default key for the Psi menu is \u0027c\u0027. The menu will guide you step by step through each spell component, material, as well as how the code fragments work together.\n\n\n\u003c\u003c\u003cWork in progress\u003e\u003e\u003e",
               "size": 1.0
             }
           },
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 3
+        },
+        {
+          "xPos": 22,
+          "yPos": 29,
+          "width": 178.0,
+          "height": 38.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Psi is a mod that allows you to create spells through a basic form of \"spell programming.\"",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 4
         }
       ],
       "pageNumber": 14,
@@ -2291,20 +2340,85 @@
           "layerIndex": 1
         },
         {
-          "xPos": 30,
-          "yPos": 17,
-          "width": 160.0,
-          "height": 21.0,
+          "xPos": 79,
+          "yPos": 14,
+          "width": 66.0,
+          "height": 12.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "Getting Started with Soul Shards",
+              "text": "Soul Shards",
               "size": 1.0
             }
           },
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 2
+        },
+        {
+          "xPos": 25,
+          "yPos": 28,
+          "width": 181.0,
+          "height": 71.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Soul Shards allows the player to store mob souls inside of a crystal as a means for later resummoning with the use of a Soul Cage.\n\nTo begin with Soul Shards, place a block of glowstone with four quartz blocks adjacent and four obsidian diagnal.",
+              "size": 1.0
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 31,
+          "yPos": 109,
+          "width": 166.0,
+          "height": 88.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/New_Beginnings/2016-05-22_15.15.46.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 227,
+          "yPos": 21,
+          "width": 180.0,
+          "height": 170.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Tap the center of the glowstone with a diamond and the multiblock will shatter. In return, you will obtain an [b]Unbound Soul Shard[/b].\n\nThe first mob that you kill will bind the entity to the shard. In order to use your soul shard you must first acquire a certain amount of kills in order to upgrade the shard to a certain tier:\n64 - Tier 1\n128 - Tier 2\n256 - Tier 3\n512 - Tier 4\n1024 - Tier 5\nUsing a [b]Vile Sword[/b] will grant bonus charges. Use any tiered shard on a [b]Soul Cage[/b] to create a spawner.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 299,
+          "yPos": 112,
+          "width": 103.0,
+          "height": 51.5,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
+            "properties": {
+              "ingredients": "ingotCorrupted:minecraft:iron_bars:32767:ingotCorrupted:minecraft:iron_bars:32767:minecraft:iron_bars:32767:ingotCorrupted:minecraft:iron_bars:32767:ingotCorrupted",
+              "recipeType": "ShapedOreRecipe",
+              "item": "soulshardstow:BlockCage",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 6
         }
       ],
       "pageNumber": 17,
@@ -2389,6 +2503,22 @@
           "isLocked": false,
           "isHidden": false,
           "layerIndex": 2
+        },
+        {
+          "xPos": 21,
+          "yPos": 31,
+          "width": 181.0,
+          "height": 81.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Dark gems maybe obtained through the used of the Orechid. \nTo get started with EvilCraft, feed a dark apple to any animal and let it die. Once the animal has died, throw a book into the resulting light show. You will then obtain the guide book for the mod.\n\n\n\u003c\u003c\u003cReserved - Work in progress\u003e\u003e\u003e",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 3
         }
       ],
       "pageNumber": 22,
@@ -3156,8 +3286,5 @@
       "pageNumber": 12,
       "isScrollable": false
     }
-  ],
-  "defaultIDs": [
-    "enchiridion_default_buttons"
   ]
 }
