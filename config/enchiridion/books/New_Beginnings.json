@@ -184,11 +184,11 @@
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureText",
             "properties": {
-              "text": "It is recommended you read the Garden of Glass section of the Lexica Botania before starting. Should you happen to lose this book, simply place a pebble in the crafting grid. \n\nBelow you can find the following links to the forums and issue tracker:\n\n\n\n\nIf you would like your Let\u0027s Play displayed here, PM me on the forums!\nWelsknight:",
+              "text": "It is recommended you read the Garden of Glass section of the Lexica Botania before starting. Should you happen to lose this book, simply place a pebble in the crafting grid. \n\nBelow you can find the following links to the forums and issue tracker:\n\n\n\n\nIf you would like your Let\u0027s Play displayed here, PM me on the forums!\nWelsknight:\n\nBerlinRiver:",
               "size": 1.0
             }
           },
-          "isLocked": true,
+          "isLocked": false,
           "isHidden": false,
           "layerIndex": 6
         },
@@ -324,10 +324,10 @@
           "layerIndex": 11
         },
         {
-          "xPos": 287,
-          "yPos": 168,
-          "width": 16.0,
-          "height": 16.0,
+          "xPos": 295,
+          "yPos": 170,
+          "width": 11.0,
+          "height": 12.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureButton",
             "properties": {
@@ -349,12 +349,60 @@
               "unhoveredXOffset": 0,
               "unhoveredYOffset": 0,
               "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
+              "unhoveredResource": "enchiridion:images/New_Beginnings/WelsHead.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 12
+        },
+        {
+          "xPos": 290,
+          "yPos": 169,
+          "width": 21.0,
+          "height": 15.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureBox",
+            "properties": {
+              "color": "ff000000"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 13
+        },
+        {
+          "xPos": 292,
+          "yPos": 186,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionOpenWebpage",
+                "properties": {
+                  "url": "https://www.youtube.com/watch?v\u003dTsu7kao4K-o"
+                }
+              },
+              "size": 1.0,
+              "leftClick": true,
+              "rightClick": true,
+              "otherClick": false,
+              "tooltip": "",
+              "hoverText": "",
+              "hoverXOffset": 0,
+              "hoverYOffset": 0,
+              "unhoveredText": "",
+              "unhoveredXOffset": 0,
+              "unhoveredYOffset": 0,
+              "hoveredResource": "enchiridion:textures/books/arrow_right_on.png",
               "unhoveredResource": "enchiridion:images/New_Beginnings/download.png"
             }
           },
-          "isLocked": false,
+          "isLocked": true,
           "isHidden": false,
-          "layerIndex": 12
+          "layerIndex": 14
         }
       ],
       "pageNumber": 0,
@@ -900,7 +948,7 @@
           "xPos": 38,
           "yPos": 116,
           "width": 160.0,
-          "height": 160.0,
+          "height": 80.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1034,7 +1082,7 @@
           "xPos": 26,
           "yPos": 105,
           "width": 84.0,
-          "height": 84.0,
+          "height": 42.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1068,7 +1116,7 @@
           "xPos": 235,
           "yPos": 141,
           "width": 78.0,
-          "height": 78.0,
+          "height": 39.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1086,7 +1134,7 @@
           "xPos": 320,
           "yPos": 138,
           "width": 83.0,
-          "height": 83.0,
+          "height": 41.5,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1104,7 +1152,7 @@
           "xPos": 119,
           "yPos": 105,
           "width": 82.0,
-          "height": 82.0,
+          "height": 41.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1122,7 +1170,7 @@
           "xPos": 83,
           "yPos": 148,
           "width": 102.0,
-          "height": 102.0,
+          "height": 51.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
@@ -1452,7 +1500,7 @@
           "xPos": 94,
           "yPos": 157,
           "width": 86.0,
-          "height": 86.0,
+          "height": 43.0,
           "feature": {
             "class": "joshie.enchiridion.gui.book.features.FeatureRecipe",
             "properties": {
